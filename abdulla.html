@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="favicon.png">
+<title>About: Mahibull</title>
+<meta name="decoration" content="Mahibull is a android apps Devloper / Programmer Java, He is Basic Html, Css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+*{
+margin:0;
+padding:0;
+
+}
+
+body{
+ background-image: url('wallpaper.png');
+background-repeat:no-repeat; 
+width:100%;
+background-attachment: fixed;
+background-position: center;
+
+/*all background sCroll Propertis*/
+background-attachment: scroll;
+ } 
+ 
+ 
+.round{
+margin-top:20px;
+border-radius:50%;
+width:170px;
+height:170px;
+border:2px solid rgb(243, 197, 197);
+box-shadow: 0 0 15px aqua;
+}
+h1{
+color:white;
+letter-spacing: 2px;
+}
+h4{
+color:white;
+margin-left:30px;
+margin-right:30px;
+font-size:18px;
+}
+i{
+
+color:#ffffff;
+padding:8px;
+
+}
+button{
+background:#22252e;
+color:#ffffff;
+width:95%;
+height:50px;
+border-radius:10px;
+font-size:17px;
+border:none;
+cursor:pointer;
+}
+div{
+text-align:center;
+background:#22252e;
+height:40px;
+border:none;
+text-align:center;
+
+}
+
+@media only screen and (min-width: 400px) {
+ 
+ button{
+background:#22252e;
+color:#ffffff;
+width:45%;
+height:55px;
+border-radius:10px;
+font-size:17px;
+border:none;
+}
+
+button:hover {
+color:skyblue;
+transition: 0.4s;
+ 
+      
+  }
+button:hover{
+transform: scale(1.1);
+transition: 0.5s;
+}
+
+h1{
+color:white;
+}
+h4{
+width:300px;
+color:white;
+margin-left:30px;
+margin-right:30px;
+}
+ 
+  }
+@media only screen and (max-width: 400px) {
+ 
+ button{
+background:#22252e;
+color:#ffffff;
+width:95%;
+height:50px;
+border-radius:10px;
+font-size:17px;
+border:none;
+}
+
+button:hover{
+color:skyblue;
+}
+h1{
+color:rgb(233, 35, 251);
+font-family: cursive;
+}
+h4{
+width:300px;
+color:#fff;
+margin-left:30px;
+margin-right:30px;
+}
+ 
+  }
+  footer{
+  padding-top:20px;
+  text-align:center;
+  background:#22252e;
+  height:30px;
+  }
+  .ma{
+font-size:20px;
+border-right:1px solid white;
+color:skyblue;
+text-decoration:none;
+  }
+  .np{
+  font-size:20px;
+color:#ffffff;
+  }
+  a{
+  text-decoration:none;
+  }
+.banner{
+  width: 100%;
+  height: 200px;
+  display: none;
+ 
+}
+
+</style>
+
+</head>
+<body>
+<center>
+  <img class="banner" src="image.jpeg" alt="image">
+
+<img class="round" src="my_image.jpg" alt="image">
+<h1>Abdulla</h1>
+<br>
+<h4>I am Abdulla, 18 years old.Experience profasonal
+Mobile apps Developer freelancing.com BD</h4>
+<a href="https://www.facebook.com/mhabdulla.Hossen?mibextid=ZbWKwL"><i class="fa fa-facebook" style="font-size:25px;"></i></a>
+<i class="fa fa-twitter"  style="font-size:25px;"></i>
+<i class="fa fa-linkedin" style="font-size:25px;"></i>
+
+<a href="https://wa.me/+8801404980733?text=Hello">
+<i class="fa fa-whatsapp"style="font-size:25px;"></i></a>
+<br>
+<br>
+
+<a href="https://web.facebook.com/groups/1027895904834929/"><button>See My All Project</button></a>
+<br>
+<br>
+<button id="sorkar">My TrickBd Post</button>
+<br>
+<br>
+<button>Visit Telegram Chanel</button>
+<br>
+<br>
+<a href="..index.html"><button>Look me up on Google</button></a>
+<br>
+<br>
+<br>
+<br>
+<footer>
+   <a href="#link"><b class="ma">Abdulla&nbsp</b></a>   
+   <b class="np">N.B App Devloper</b>    
+	   
+    </footer>
+
+</center>
+
+<script>
+  let banner=document.querySelector('.banner');
+  let sorkar=document.getElementById('sorkar');
+  sorkar.addEventListener('click',function(){
+  banner.style.display="block";
+
+setTimeout(()=>{
+  banner.style.display="none";
+
+
+},5000)
+
+  });
+</script>
+</body>
+</html>
